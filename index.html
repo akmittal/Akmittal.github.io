@@ -22,6 +22,7 @@
            border:2px solid;
            border-radius: 4px;
            transition:100ms border-radius ease-out;
+           margin:5px 10px;
            
         }
         .facebook{
@@ -60,6 +61,9 @@
         .social-wrapper{
             margin:auto;
         }
+        .footer-copyright container:before{
+            content: "\00a9"
+        }
         </style>
         
 </head>
@@ -74,10 +78,7 @@
                     <li><a href="resume.html">Resume</a></li>
                     <li><a href="#">About me</a></li>
                 </ul>
-                <ul class="side-nav" id="mobile-demo">
-                    <li><a href="resume.html">Resume</a></li>
-                    <li><a href="#">About me</a></li>
-                </ul>
+                
             </div>
         </nav>
     </div>
@@ -97,20 +98,19 @@
             <h4 class="center-align">Web Developer</h2>
         </div>
         <div class="container overflow">
-                <h3 class="center-align">Skills</h3>
+                
         </div>
     </div>
     <div class="red darken-3">
         <div class="row overflow white-text">
-            <h1 class="center-align">Contact me</h1>
-        </div>
+                  </div>
         <div style="display:flex">
         <div class="social-wrapper col l3 m6 s12" >
-            <a href="https://facebook.com/akmittal91"><div class="social-button facebook"><img src="images/icons/facebook.svg" /></div></a>
-            <a href="https://twitter.com/ak_mittal"><div class="social-button twitter"><img src="images/icons/twitter.svg" /></div></a>
-            <a href="https://plus.google.com/+AmitMittal91"><div class="social-button google-plus"><img src="images/icons/googleplus.svg" /></div></a>
-            <a href="https://github.com/akmittal"><div class="social-button github"><img src="images/icons/github.svg" /></div></a>
-            <a href="mailto:mittalmailbox@gmail.com"><div class="social-button other"><img src="images/icons/email.svg" /></div></a>
+            <a target="akmittal_social" href="https://facebook.com/akmittal91"><div class="social-button facebook"><img src="images/icons/facebook.svg" /></div></a>
+            <a target="akmittal_social" href="https://twitter.com/ak_mittal"><div class="social-button twitter"><img src="images/icons/twitter.svg" /></div></a>
+            <a target="akmittal_social" href="https://plus.google.com/+AmitMittal91"><div class="social-button google-plus"><img src="images/icons/googleplus.svg" /></div></a>
+            <a target="akmittal_social" href="https://github.com/akmittal"><div class="social-button github"><img src="images/icons/github.svg" /></div></a>
+            <a  href="mailto:mittalmailbox@gmail.com"><div class="social-button other"><img src="images/icons/email.svg" /></div></a>
             
             
         </div>
@@ -120,24 +120,27 @@
           <div class="container">
             <div class="row">
               <div class="col l6 s12">
-                <h5 class="white-text">Footer Content</h5>
-                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                <h5 class="white-text">Address</h5>
+                <p class="grey-text text-lighten-4">
+                    Brookefield<br />
+                    Bangalore -560037 <br />
+                    India</p>
               </div>
               <div class="col l4 offset-l2 s12">
                 <h5 class="white-text">Links</h5>
                 <ul>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                  <li><a class="grey-text text-lighten-3" href="http://facebook.com/akmittal91">Facebook</a></li>
+                  <li><a class="grey-text text-lighten-3" href="http://twitter.com/ak_mittal">Twitter</a></li>
+                  <li><a class="grey-text text-lighten-3" href="http://github.com/akmittal">Github</a></li>
+                  <li><a class="grey-text text-lighten-3" href="http://plus.google.com/+amitmittal91">Google+</a></li>
                 </ul>
               </div>
             </div>
           </div>
           <div class="footer-copyright">
             <div class="container">
-                ©2016 Copyright Text
-            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+                2016 Copyright Amit Mittal
+            
             </div>
           </div>
         </footer>
