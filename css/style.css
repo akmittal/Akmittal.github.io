@@ -4,7 +4,7 @@
         }
         .wrapper{
             margin:20px auto;
-            background: #eee;
+            background: #fff;
         }
         .content-container{
             width:90%;
@@ -20,6 +20,7 @@
         }
         .contact{
             float: right;
+            padding:40px 10px;
         }
         .name{
             margin-bottom:5px;
@@ -52,7 +53,7 @@
             
         }
         .info{
-         float:right   
+         float:right;
         }
         .fixed{
             position: fixed;
@@ -77,6 +78,10 @@
        }
        .contact a{
            color:#222;
+       }
+       .skill{
+           padding:0px 10px;
+           float: left;
        }
        
         
