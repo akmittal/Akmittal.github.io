@@ -1,0 +1,88 @@
+
+        body{
+            background: #333;
+        }
+        .wrapper{
+            margin:20px auto;
+            background: #fff;
+        }
+        .content-container{
+            width:90%;
+            margin:auto;
+        }
+        .ruler{
+            width: 100%;
+            height: 10px;
+            background:#4099FF;
+            border:0px;
+        }
+        img{
+            width:100%;
+        }
+        .contact{
+            float: right;
+            padding:40px 10px;
+        }
+        .name{
+            margin-bottom:5px;
+           font-size:3em;
+            font-weight: 300;
+        }
+        .title{
+            margin-top:5px;
+            font-weight: 100;
+            font-size:2em;
+            
+        }
+        h5{
+            color:#666;
+            font-weight: 300;
+        }
+        .divider{
+            margin:30px 0px;
+        }
+        .header{
+            color:#333;
+            font-weight: 400;
+        }
+        .subhead{
+            font-size:1.2em;
+            font-weight: 300;
+        }
+        p,.subhead{
+            color:#666;
+            
+        }
+        .info{
+         float:right;
+        }
+        .fixed{
+            position: fixed;
+            bottom:20px;
+            right:20px;
+        }
+        .icon{
+            display: block;
+            font-size:48px;
+            background: #eee;
+          margin:5px 0px;
+           border-radius: 2px;
+           
+        }
+        p,.icon>a{
+            font-weight: 300;
+            font-size: 1.1em;
+            color: #111;
+        }
+       .bold{
+           font-weight: 600;
+       }
+       .contact a{
+           color:#222;
+       }
+       .skill{
+           padding:0px 10px;
+           float: left;
+       }
+       
+        
