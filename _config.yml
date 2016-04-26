@@ -1,5 +1,5 @@
 # Site settings
-title: Freelancer
+title: Amit Kumar
 email: mittalmailbox@gmail.com
 url: https://amitmittal.xyz
 description: "Professional web designer & front-end developer with extensive experience building websites using AngularJS, HTML5, CSS3 and various web scripting technologies, web standards and project management.Enthusiastic web professional motivated by challenging projects and deadlines."
@@ -54,8 +54,6 @@ address:
   - line: Whitefield
   - line: Bangalore, 560037
 
-# Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
 markdown: kramdown
