@@ -8,5 +8,6 @@ project-date: April 2013
 client: Inmobi
 category: Web Development
 description: Business card designed for Inmobi.
+url: http://mprint.in/clients/inmobi/
 
 ---
