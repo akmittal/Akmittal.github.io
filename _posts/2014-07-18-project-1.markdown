@@ -1,5 +1,4 @@
 ---
-title: Quote it up
 layout: default
 modal-id: 1
 date: 2016-04-01
