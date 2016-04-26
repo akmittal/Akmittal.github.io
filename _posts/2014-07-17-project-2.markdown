@@ -7,6 +7,6 @@ alt: Card designer
 project-date: April 2013
 client: Inmobi
 category: Web Development
-description: Business card designed for Inmobil.
+description: Business card designed for Inmobi.
 
 ---
