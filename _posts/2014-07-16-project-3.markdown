@@ -8,5 +8,6 @@ project-date: April 2014
 client: Grace Network
 category: Web Development
 description: Website for Youtube Partner <a href="http://gracenetwork.tv">Grace Network </a>
+url: http://gracenetwork.tv
 
 ---
