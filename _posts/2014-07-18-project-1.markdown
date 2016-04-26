@@ -1,4 +1,5 @@
 ---
+title: Quote it up
 layout: default
 modal-id: 1
 date: 2016-04-01
@@ -8,5 +9,6 @@ client: Start Bootstrap
 project-date: April 2016
 category: Mobile development
 description: Quote it up is Android app to dynamically generate images with quotations. Images can be customized for attributes like text size,color, font etc. Auto update service can be updated to automatically updated wallpaper after specified interval.
-title:Quote it up
+
+
 ---
