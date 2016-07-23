@@ -1,88 +1,341 @@
 
-        body{
-            background: #333;
-        }
-        .wrapper{
-            margin:20px auto;
-            background: #fff;
-        }
-        .content-container{
-            width:90%;
-            margin:auto;
-        }
-        .ruler{
-            width: 100%;
-            height: 10px;
-            background:#4099FF;
-            border:0px;
-        }
-        img{
-            width:100%;
-        }
-        .contact{
-            float: right;
-            padding:40px 10px;
-        }
-        .name{
-            margin-bottom:5px;
-           font-size:3em;
-            font-weight: 300;
-        }
-        .title{
-            margin-top:5px;
-            font-weight: 100;
-            font-size:2em;
-            
-        }
-        h5{
-            color:#666;
-            font-weight: 300;
-        }
-        .divider{
-            margin:30px 0px;
-        }
-        .header{
-            color:#333;
-            font-weight: 400;
-        }
-        .subhead{
-            font-size:1.2em;
-            font-weight: 300;
-        }
-        p,.subhead{
-            color:#666;
-            
-        }
-        .info{
-         float:right;
-        }
-        .fixed{
-            position: fixed;
-            bottom:20px;
-            right:20px;
-        }
-        .icon{
-            display: block;
-            font-size:48px;
-            background: #eee;
-          margin:5px 0px;
-           border-radius: 2px;
-           
-        }
-        p,.icon>a{
-            font-weight: 300;
-            font-size: 1.1em;
-            color: #111;
-        }
-       .bold{
-           font-weight: 600;
-       }
-       .contact a{
-           color:#222;
-       }
-       .skill{
-           padding:0px 10px;
-           float: left;
-       }
-       
-        
+@font-face {
+    font-family: 'Mohave';
+    src: url('../fonts/Mohave-Bold.otf');
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html, body {
+    min-height: 100%;
+}
+body {
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 100%;
+    position: relative;
+}
+.container header {
+    position: relative;
+    position: fixed;
+    width: 100%;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 5;
+}
+.accent-color {
+    color: rgb(233, 30, 99);
+}
+.container header .row {
+    display: flex;
+    justify-content: space-between;
+}
+.container header .row .title {
+    padding: 10px 20px;
+    font-family: 'Mohave', sans-serif;
+    font-size: 4em;
+    height: 80px;
+}
+.container header .row .title img{
+    height: 100%;
+}
+.container header .navigation {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+.container header nav a {
+    color: #e1e1e1;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-left: 2px;
+    font-size: 1.1em;
+}
+.container header nav .active, .container header nav a:hover, .container header nav a:active {
+    /*border-bottom: 2px solid #fff;
+  padding-bottom: 3px;*/
+    color: #fff;
+    transition: color 300ms;
+}
+.container main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+}
+.page-title {
+    flex: 1;
+}
+.page-main {
+    flex: 3;
+}
+.page-main .icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;
+    color: white;
+    align-content: center;
+    font-size: 26px;
+    border: 1px solid #fff;
+    -webkit-transition: background 0.3s ease-out;
+    -moz-transition: background 0.3s ease-out;
+    transition: background 0.3s ease-out;
+}
+.page-main .about-text ul li{
+    padding: 5px 10px;
+    display: inline;
+}
+.page-main .about-text p{
+    padding: 40px 60px;
+    font-size: 1.2em;
+}
+.red{
+    color: #ff0000;
+}
+.page-main .icon span{
+    padding: 17px;
+}
+.page-main .facebook{
+    border-color: #3b5998;
+}
+.page-main .facebook:hover{
+    background: #3b5998;
+}
+.page-main .twitter{
+    border-color: #55acee;
+}
+.page-main .twitter:hover{
+    background: #55acee;
+}
+.page-main .google{
+    border-color: #dd4b39;
+}
+.page-main .google:hover{
+    background: #dd4b39;
+}
+.page-main .github{
+    border-color: #999999;
+}
+.page-main .github:hover{
+    background: #999999;
+}
+.page-main .email{
+    border-color: #ccc;
+}
+.page-main .email:hover{
+    background: #ccc;
+}
+.wrapper .wrap {
+    width: 80%;
+    margin: auto;
+    padding: 20px 10px;
+    text-align: center;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.heading {
+    font-size: 4em;
+    font-family: 'Mohave', sans-serif;
+}
+.text-shadow{
+     text-shadow: 0px 0px 3px #000;
+}
+.sub-head {
+    font-size: 2.5em;
+}
+#index {
+    position: relative;
+    background: url(../images/header-bg.jpg) center/cover;
+    padding-top: 6em;
+}
+#index .wrap div {
+    position: absolute;
+    right: 10%;
+    bottom: 50%;
+}
+.wrap .page-title {
+    position: relative;
+    height: 100%;
+}
+.wrapper .heading-left {
+    white-space: nowrap;
+    position: absolute;
+    bottom: 0;
+    transform: rotate(-90deg);
+    transform-origin: left top 0;
+}
+.wrapper .heading-right {
+    white-space: nowrap;
+    position: absolute;
+    top: 1em;
+    right: 0;
+    transform: translateX(4em) rotate(90deg);
+    transform-origin: left top 0;
+}
+.wrapper .heading-white {
+    color: #fff
+}
+.seprator {
+    clear: both;
+    width: 30px;
+    margin: auto;
+    padding: 5px 0px;
+    border-top: 4px solid #fff;
+    border-radius: 2px;
+}
+.seprator-black {
+    border-color: #111;
+}
+.container #about {
+    background: #2d3337;
+}
+.profile-img {
+    margin: 0px auto;
+    width: 250px;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+.profile-img img {
+    width: 100%;
+    transition: transform 0.3s;
+}
+.profile-img:hover img {
+    transform: scale(1.05);
+}
+.container #skills {
+    background: #00a7e7;
+}
+.container #work {
+    background: #fae00d;
+}
+.container #contact {
+    background: rgb(156, 39, 176)
+}
+.work-container{
+    margin-top:100px;
+    display: flex;
+}
+.work-container .work{
+    background: #222;
+    width: 33%;
+    margin: 10px 10px;
+    position: relative;
+    overflow: hidden;
+}
+.work-container .work .work-image{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.work-container .work .work-info{
+    background: #222;
+    padding: 20px 40px;
+    position: absolute;
+    bottom:-120px;
+    left: 0px;
+    height:100px;
+    width: 100%;
+}
+.work-container .work .work-info a{
+    margin-top: 10px;
+    color: #fff;
+}
+.work-container .work .work-info a:hover{
+    color: rgb(233, 30, 99);
+}
+.work-container .work .work-info a img{
+    height :18px;
+}
+.work-container .work .work-image img{
+    width: 100%;
+    height: 100%;
+    -webkit-transition: transform 0.5s cubic-bezier(0.23, 1, 0.320, 1) ;
+    -moz-transition: transform 0.5s cubic-bezier(0.23, 1, 0.320, 1) ;
+    transition: transform 0.5s cubic-bezier(0.23, 1, 0.320, 1) ;
+}
+
+.work-container .work:hover .work-image img{
+    transform: scale(1.1)  translateY(-20px);
+    -webkit-transition: transform 0.5s cubic-bezier(0.23, 1, 0.320, 1) ;
+    -moz-transition: transform 0.5s cubic-bezier(0.23, 1, 0.320, 1) ;
+    transition: transform 0.5s cubic-bezier(0.23, 1, 0.320, 1) ;
+}
+.work-container .work:hover .work-info{
+     transform: translateY(-100px);
+    -webkit-transition: transform 0.5s cubic-bezier(0.23, 1, 0.320, 1) ;
+    -moz-transition: transform 0.5s cubic-bezier(0.23, 1, 0.320, 1) ;
+    transition: transform 0.5s cubic-bezier(0.23, 1, 0.320, 1) ;
+}
+.form-control[type=text],.form-control[type=email], textarea{
+    background: transparent;
+    display: block;
+    width: 100%;
+    margin: 30px auto;
+    padding: 10px 10px;
+    border: 1px solid #aaa;
+    font-size: 1.2em;
+    color: #fff;
+    border-radius: 2px
+}
+textarea{
+    height: 150px;
+    resize: none;
+}
+button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 1.2em;
+     -webkit-transition: background 0.2s cubic-bezier(0.23, 1, 0.320, 1) ;
+    -moz-transition: background 0.2s cubic-bezier(0.23, 1, 0.320, 1) ;
+    transition: background 0.2s cubic-bezier(0.23, 1, 0.320, 1) ;
+}
+button:hover{
+    cursor: pointer;
+    background: rgb(233, 30, 99);
+    border-color: rgb(233, 30, 99);
+     -webkit-transition: background 0.2s cubic-bezier(0.23, 1, 0.320, 1) ;
+    -moz-transition: background 0.2s cubic-bezier(0.23, 1, 0.320, 1) ;
+    transition: background 0.2s cubic-bezier(0.23, 1, 0.320, 1) ;
+}
+.progress-container{
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+}
+.progress-bar{
+    padding: 9px;
+    text-align: left;
+    height: 40px;
+    width: 0px;
+    background: rgb(233, 30, 99);
+    -webkit-transition: width 0.5s ease-out;
+    -moz-transition: width 0.5s ease-out;
+    transition: width 0.5s ease-out;
+}
+.skill-container h4{
+    margin-top: 40px;
+    text-align: left;
+    padding: 5px 10px;
+}
+@media screen and (max-width: 699px) and (min-width: 320px) {
+    body{
+        font-size: 18px;
+    }
+}
